@@ -1,11 +1,11 @@
 # 周末盲盒策划师 · 本地生活 Agent Demo
 
-[![Check and package Agent](https://github.com/GonRui-ray/weekend-local-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/GonRui-ray/weekend-local-agent/actions/workflows/ci.yml)
-[![Publish product showcase](https://github.com/GonRui-ray/weekend-local-agent/actions/workflows/pages.yml/badge.svg)](https://github.com/GonRui-ray/weekend-local-agent/actions/workflows/pages.yml)
+[![Check and package Agent](https://github.com/ngjason0428/weekend-local-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/ngjason0428/weekend-local-agent/actions/workflows/ci.yml)
+[![Publish product showcase](https://github.com/ngjason0428/weekend-local-agent/actions/workflows/pages.yml/badge.svg)](https://github.com/ngjason0428/weekend-local-agent/actions/workflows/pages.yml)
 
 面向**住在当地的人**的 AI 产品 Demo。目标是根据常住城市、每个人的日常出发地、空闲时间、预算和兴趣，整合活动与生活资讯，生成附近路线与邀请函。设计目标为 2–3 条；可行方案不足时如实返回。
 
-**[打开公网交互体验](https://gonrui-ray.github.io/weekend-local-agent/)**，点击首页「先拆一个样例盲盒」，即可试选三套杭州样例路线、看详情、生成并复制邀请函。无需启动本地服务。
+**[打开公网交互体验](https://ngjason0428.github.io/weekend-local-agent/)**，点击首页「先拆一个样例盲盒」，即可试选三套杭州样例路线、看详情、生成并复制邀请函。无需启动本地服务。
 
 **体验说明：公开页面使用样例数据，真实活动 API 与云后端尚未接通。** 手机与桌面均可体验路线比较、时间线和邀请函。完整工程记录见 [联网验证报告](docs/online-verification.md)。
 
@@ -19,7 +19,7 @@
 
 | 项目材料 | 入口 |
 | --- | --- |
-| 完整源码与版本历史 | [GitHub 仓库](https://github.com/GonRui-ray/weekend-local-agent) |
+| 完整源码与版本历史 | [GitHub 仓库](https://github.com/ngjason0428/weekend-local-agent) |
 | 产品定位、信息接入与阶段路线图 | [项目介绍与产品规划](docs/product-overview.md) |
 | 代码框架、模块职责与执行链路 | [架构与代码框架](docs/architecture.md) |
 | 公网结果、接口状态与实测截图 | [联网验证报告](docs/online-verification.md) · [HTTP 记录](docs/evidence/public-http.json) · [浏览器记录](docs/evidence/public-browser.json) |
@@ -27,7 +27,7 @@
 | 活动、小红书与本地生活资讯接入 | [信息接入与整合](信息接入与整合.md) |
 | 后续部署技术预案（暂不执行） | [GitHub / ModelScope / Render](GitHub部署.md) · [环境变量](agent/.env.example) |
 | 后续真实接口验收方案 | [真实调用检查和 Pages 连接](docs/live-launch.md) |
-| 可下载源码和 ModelScope 包 | [GitHub Releases](https://github.com/GonRui-ray/weekend-local-agent/releases) |
+| 可下载源码和 ModelScope 包 | [GitHub Releases](https://github.com/ngjason0428/weekend-local-agent/releases) |
 
 ![公开体验页实测截图，活动为样例数据](docs/screenshots/public-home.png)
 
@@ -150,7 +150,7 @@ npm run build
 公网 HTTP 验证无需本地服务或付费 Key：
 
 ```bash
-python scripts/verify_public_site.py --base-url https://gonrui-ray.github.io/weekend-local-agent/
+python scripts/verify_public_site.py --base-url https://ngjason0428.github.io/weekend-local-agent/
 ```
 
 制作可发布源码包与扁平 ModelScope 包（先构建前端并提交要打包的文件）：

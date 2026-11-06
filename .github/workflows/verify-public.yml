@@ -5,7 +5,7 @@ on:
       site_url:
         description: Public HTTPS website to verify
         required: true
-        default: https://gonrui-ray.github.io/weekend-local-agent/
+        default: https://ngjason0428.github.io/weekend-local-agent/
 permissions:
   contents: read
 jobs:

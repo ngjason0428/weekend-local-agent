@@ -29,7 +29,7 @@ class LiveAcceptanceTests(unittest.IsolatedAsyncioTestCase):
     async def asyncSetUp(self):
         self.env = patch.dict(os.environ, {"AMAP_KEY": "test", "TAVILY_KEY": "test", "MODEL_API_KEY": "",
                               "EVENT_FEED_URL": "", "EVENT_FEED_PATH": "", "EVENT_FEED_TOKEN": "",
-                              "CORS_ORIGINS": "https://gonrui-ray.github.io"})
+                              "CORS_ORIGINS": "https://ngjason0428.github.io"})
         self.env.start()
         self.suppliers = httpx.AsyncClient(transport=httpx.MockTransport(live_handler))
         self.pipeline, _ = create_pipeline(self.suppliers)

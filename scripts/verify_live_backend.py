@@ -17,7 +17,7 @@ import httpx
 from jsonschema import validate, ValidationError
 
 ROOT = Path(__file__).resolve().parents[1]
-PAGES_ORIGIN = "https://gonrui-ray.github.io"
+PAGES_ORIGIN = "https://ngjason0428.github.io"
 
 
 class VerificationError(ValueError):

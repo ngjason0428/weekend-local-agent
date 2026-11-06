@@ -71,8 +71,8 @@
 
 ## 产品体验与工程材料
 
-[打开公开 Demo](https://gonrui-ray.github.io/weekend-local-agent/) → 点击「先拆一个样例盲盒」→ 比较路线 → 查看时间线 → 生成并复制邀请函。支持手机响应式布局及 JSON 导出。
+[打开公开 Demo](https://ngjason0428.github.io/weekend-local-agent/) → 点击「先拆一个样例盲盒」→ 比较路线 → 查看时间线 → 生成并复制邀请函。支持手机响应式布局及 JSON 导出。
 
 **体验说明：公开页面使用明确标记的杭州样例，真实活动 API 与云后端尚未接通。** 样例用于展示产品流程；按所在地实时检索与重排属于路线图中的后续建设。
 
-[完整源码](https://github.com/GonRui-ray/weekend-local-agent) · [代码框架](architecture.md) · [工程验证记录](online-verification.md) · [接口与部署方案](live-launch.md)
+[完整源码](https://github.com/ngjason0428/weekend-local-agent) · [代码框架](architecture.md) · [工程验证记录](online-verification.md) · [接口与部署方案](live-launch.md)

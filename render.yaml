@@ -15,7 +15,7 @@ services:
       - key: MOUNT_GRADIO
         value: "false"
       - key: CORS_ORIGINS
-        value: https://gonrui-ray.github.io
+        value: https://ngjason0428.github.io
       - key: AMAP_KEY
         sync: false
       - key: TAVILY_KEY

@@ -6,7 +6,7 @@
 
 ## 先部署一套完整应用
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/GonRui-ray/weekend-local-agent)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/ngjason0428/weekend-local-agent)
 
 点击按钮，用你自己的 Render 账号登录，确认导入本仓库的 `render.yaml`。配置默认选择免费 Web Service、Singapore 区域、Docker 构建与手动发布；是否能使用免费资源及账号验证要求，以平台实际页面为准。若平台要求选择付费方案，先暂停，不要为完成这个步骤直接升级。
 
@@ -40,7 +40,7 @@ python scripts/verify_live_backend.py \
 验收包含：
 
 1. `/health` 存活、`/ready` 配置就绪、`/api/config` 有地图与信息源。未就绪时不继续调用供应商。
-2. 同源 React 界面可访问；CORS 允许现有 `https://gonrui-ray.github.io` 的 POST。
+2. 同源 React 界面可访问；CORS 允许现有 `https://ngjason0428.github.io` 的 POST。
 3. 实际调用 `/turn`，读取 SSE 执行状态与 Schema 合格的最终 JSON。
 4. 结果必须是 `live`，城市和日期不能改变，必须有地图来源和与路线匹配的活动/资讯 URL。只有地图地点、样例或空结果均失败。
 5. 检查预算、距离、各人往返、共同时间和通勤上限；选中路线后在同一会话生成对应邀请函。

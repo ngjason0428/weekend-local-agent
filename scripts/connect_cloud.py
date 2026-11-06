@@ -14,7 +14,7 @@ import sys
 
 from verify_live_backend import read_request_file, verify_backend, public_url, VerificationError
 
-REPO = "GonRui-ray/weekend-local-agent"
+REPO = "ngjason0428/weekend-local-agent"
 ROOT = Path(__file__).resolve().parents[1]
 
 

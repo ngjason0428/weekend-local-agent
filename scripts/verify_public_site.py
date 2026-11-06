@@ -78,7 +78,7 @@ def verify(base_url):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--base-url", default="https://gonrui-ray.github.io/weekend-local-agent/")
+    parser.add_argument("--base-url", default="https://ngjason0428.github.io/weekend-local-agent/")
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
     try:

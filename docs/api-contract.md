@@ -14,7 +14,7 @@
 | `GET /ui-app/` | Python 同源 React 使用端 |
 | `GET /` | Gradio 入口，嵌入 React 使用端 |
 
-若前端在 Pages、Python 在另一域名：后端配置 `CORS_ORIGINS=https://gonrui-ray.github.io`，前端 Actions Variable `AGENT_API_URL` 指向已发布的后端 HTTPS 根地址。前端只收到公开服务地址，不接收供应商 Key。
+若前端在 Pages、Python 在另一域名：后端配置 `CORS_ORIGINS=https://ngjason0428.github.io`，前端 Actions Variable `AGENT_API_URL` 指向已发布的后端 HTTPS 根地址。前端只收到公开服务地址，不接收供应商 Key。
 
 ## 输入
 
