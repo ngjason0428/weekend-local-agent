@@ -1,49 +1,49 @@
 {
-  "checked_at": "2026-10-26T12:58:37.881Z",
-  "site_url": "https://gonrui-ray.github.io/weekend-local-agent/",
-  "tested_application_commit": "1cfc61d4d3ac88cf94d478a4d3894f8de8f2320c",
+  "checked_at": "2026-11-06T08:07:56.238Z",
+  "site_url": "https://ngjason0428.github.io/weekend-local-agent/",
+  "tested_application_commit": "b7c050c87b526da20343005956531710797a727d",
   "passed": true,
   "scope": "Deployed public sample UI; not a live activity-provider test.",
   "checks": [
     {
       "name": "homepage",
       "passed": true,
-      "detail": "HTTPS 首页 200；未预设城市；明确标注非实时样例。"
+      "detail": "HTTPS 首页 200；城市输入框为空（未预设城市）；顶部标注「交互体验版 · 样例数据，非实时活动」。"
     },
     {
       "name": "unsupported_live_request",
       "passed": true,
-      "detail": "成都请求保留城市并提示尚未接通；没有自动替换为杭州推荐。"
+      "detail": "成都请求后，条件栏保留「成都」，回复提示真实活动检索尚未接通；路线数 0，没有自动替换为杭州推荐。"
     },
     {
       "name": "sample_entry",
       "passed": true,
-      "detail": "主动点击后载入 3 套杭州样例。"
+      "detail": "主动点击「体验杭州示例」后载入 3 套杭州样例（杭州 · 2026-10-31 · 2 人同行）。"
     },
     {
       "name": "routes",
       "passed": true,
-      "detail": "三套路线可见，详情和历史示意日期标签可见。"
-    },
-    {
-      "name": "invitation",
-      "passed": true,
-      "detail": "为选中的「运河边的松弛感」生成邀请函并复制成功。"
+      "detail": "依次选择三套路线，详情标题随之切换：在西湖边，慢半拍 / 运河边的松弛感 / 去天目里，发会儿呆；页面标注历史示意日期。"
     },
     {
       "name": "json_export",
       "passed": true,
-      "detail": "导出 JSON 可解析，包含三套样例路线。"
+      "detail": "导出 weekend-agent.json，可解析，schema_version=1.0，包含 3 套样例路线。"
+    },
+    {
+      "name": "invitation",
+      "passed": true,
+      "detail": "为选中的「运河边的松弛感」生成邀请函，内容与该路线一致；点击复制后提示「邀请函已复制，去约那个想见的人吧。」，剪贴板内容一致。"
     },
     {
       "name": "responsive",
       "passed": true,
-      "detail": "1440px 桌面与 390px 手机流程无横向溢出。"
+      "detail": "1440px 桌面与 390px 手机流程共 6 个页面状态，最大横向溢出 0px；手机端可看到 3 套路线。"
     },
     {
       "name": "network_boundary",
       "passed": true,
-      "detail": "样例交互未请求 /turn 或 /api/*，没有冒充实时搜索。"
+      "detail": "样例交互未请求 /turn 或 /api/*（记录到 0 次），没有冒充实时搜索。"
     },
     {
       "name": "javascript",

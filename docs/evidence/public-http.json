@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-10-26T12:57:40.334945+00:00",
-  "site_url": "https://gonrui-ray.github.io/weekend-local-agent/",
+  "checked_at": "2026-11-06T08:07:14.430387+00:00",
+  "site_url": "https://ngjason0428.github.io/weekend-local-agent/",
   "scope": "Public showcase HTTP, built assets and labelled sample; no live provider calls.",
   "checks": [
     {
@@ -8,7 +8,7 @@
       "passed": true,
       "detail": {
         "status": 200,
-        "url": "https://gonrui-ray.github.io/weekend-local-agent/"
+        "url": "https://ngjason0428.github.io/weekend-local-agent/"
       }
     },
     {
@@ -27,7 +27,7 @@
       "name": "asset",
       "passed": true,
       "detail": {
-        "url": "https://gonrui-ray.github.io/weekend-local-agent/assets/index-B-e4Y57W.js",
+        "url": "https://ngjason0428.github.io/weekend-local-agent/assets/index-B-e4Y57W.js",
         "status": 200,
         "content_type": "application/javascript; charset=utf-8",
         "bytes": 180798
@@ -37,7 +37,7 @@
       "name": "asset",
       "passed": true,
       "detail": {
-        "url": "https://gonrui-ray.github.io/weekend-local-agent/assets/index-Qysjx06Y.css",
+        "url": "https://ngjason0428.github.io/weekend-local-agent/assets/index-Qysjx06Y.css",
         "status": 200,
         "content_type": "text/css; charset=utf-8",
         "bytes": 34903
@@ -66,13 +66,13 @@
   ],
   "resources": [
     {
-      "url": "https://gonrui-ray.github.io/weekend-local-agent/assets/index-B-e4Y57W.js",
+      "url": "https://ngjason0428.github.io/weekend-local-agent/assets/index-B-e4Y57W.js",
       "status": 200,
       "content_type": "application/javascript; charset=utf-8",
       "bytes": 180798
     },
     {
-      "url": "https://gonrui-ray.github.io/weekend-local-agent/assets/index-Qysjx06Y.css",
+      "url": "https://ngjason0428.github.io/weekend-local-agent/assets/index-Qysjx06Y.css",
       "status": 200,
       "content_type": "text/css; charset=utf-8",
       "bytes": 34903
